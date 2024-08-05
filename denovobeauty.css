@@ -1,5 +1,30 @@
 html { background: #EABFFA}
 
+@media screen and (max-width: 500px) {
+        h1 { 
+			font-size: 30px; }
+        h2 {
+			font-size: 20px; }
+	
+@media (max-width: 500px) {
+ body {
+    width: 100%;
+}
+}
+}
+
+@media screen and (max-width: 800px) {
+        h1 { 
+			font-size: 40px; }
+        h2 {
+			font-size: 30px; }
+	
+@media (max-width: 800px) {
+ body {
+    width: 100%;
+}
+}
+}
 body { 
     width: 750px;
     margin: 10px;
@@ -31,7 +56,7 @@ h1 {
 	padding-right: 20px;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-size: 50px;
   font-style: normal;
 }
 
@@ -44,11 +69,10 @@ h2 {
 	padding-right: 20px;
 	font-family: "Oswald", sans-serif;
 	  font-optical-sizing: auto;
-	  font-weight: 500;
+	  font-size: 40px;
 	  font-style: normal;
 	
 }
-
 h3 {
 	line-height: 30px;
 	border-bottom: 1px black solid;
@@ -133,13 +157,4 @@ td {
 
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
 
-@media (max-width: 800px) {
- body {
-    width: 100%;
-}
-}
