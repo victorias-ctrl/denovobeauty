@@ -1,6 +1,11 @@
 html { background: #EABFFA}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 body { 
-    width: 900px;
+    width: 750px;
     margin: 10px;
     padding: 50px;
   font-family: "Barlow Condensed", sans-serif;
@@ -13,6 +18,12 @@ li1 {
 	padding-right: 10px;
 	padding-top: 1px;
 	padding-left: 10px;
+}
+a:visited { 
+	color: #89043D
+}
+a:hover {
+	color: #000000
 }
 
 h1 {
@@ -115,3 +126,24 @@ h3 {
     margin: 5px;
 }
 
+table, th, td {
+  border: 1px solid #000000; 
+}
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 40px;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (max-width: 800px) {
+ body {
+    width: 100%;
+}
+}
